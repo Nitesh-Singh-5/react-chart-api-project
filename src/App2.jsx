@@ -57,14 +57,22 @@ const Apps = () => {
                   },
                   gridLines: {
                     display: false,
+                    color: '#fff',
                   },
+                  ticks:{
+                    fontColor:"#CCC"
+                  }
                 },
               ],
               xAxes: [
                 {
                   gridLines: {
                     display: false,
+                    color: '#fff',
                   },
+                  ticks:{
+                    fontColor:"#CCC"
+                  }
                 },
               ],
             },
