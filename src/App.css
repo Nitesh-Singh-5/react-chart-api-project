@@ -11,7 +11,7 @@ body {
 .App h1 {
   color: #ccf4f5;
   font-size: 60px;
-  text-shadow: #fff;
+  text-shadow: rgb(253, 213, 213);
   margin: 12px;
   text-align: center;
 }
