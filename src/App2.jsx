@@ -5,8 +5,6 @@ import "./App.css";
 
 const Apps = () => {
   const [chartData, setChartData] = useState({});
-  const [employeeSalary, setEmployeeSalary] = useState([]);
-  const [employeeAge, setEmployeeAge] = useState([]);
 
   const chart = () => {
     let empSal = [];
@@ -23,7 +21,7 @@ const Apps = () => {
           labels: empAge,
           datasets: [
             {
-              label: "level of thiccness",
+              label: "level of thickness",
               data: empSal,
               backgroundColor: ["#F8F8F8"],
               borderWidth: 4,
@@ -48,7 +46,7 @@ const Apps = () => {
           data={chartData}
           options={{
             responsive: true,
-            title: { text: "THICCNESS SCALE", display: true },
+            title: { text: "THICKNESS SCALE", display: true },
             scales: {
               yAxes: [
                 {
