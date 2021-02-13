@@ -47,8 +47,35 @@ const Apps = () => {
           options={{
             responsive: true,
             title: { text: "THICKNESS SCALE", display: true },
-            
-    
+            scales: {
+              yAxes: [
+                {
+                  ticks: {
+                    autoSkip: true,
+                    maxTicksLimit: 10,
+                    beginAtZero: true,
+                  },
+                  gridLines: {
+                    display: false,
+                    color: '#fff',
+                  },
+                  ticks:{
+                    fontColor:"#CCC"
+                  }
+                },
+              ],
+              xAxes: [
+                {
+                  gridLines: {
+                    display: false,
+                    color: '#fff',
+                  },
+                  ticks:{
+                    fontColor:"#CCC"
+                  }
+                },
+              ],
+            },
           }}
         />
       </div>
